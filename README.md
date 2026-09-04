@@ -60,6 +60,14 @@ This project currently demonstrates:
 * `IS NULL`
 * Multi-table joins
 * Aggregate calculations
+* - Subqueries
+- Scalar subqueries
+- `IN` and `NOT IN`
+- `EXISTS` and `NOT EXISTS`
+- Correlated subqueries
+- `ANY` / `SOME`
+- `ALL`
+- Subqueries in the `FROM` clause
 
 ## Repository Structure
 
