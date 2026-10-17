@@ -69,11 +69,8 @@ This project demonstrates practical SQL concepts using PostgreSQL.
 ### Subqueries
 - Scalar subqueries
 - `IN` and `NOT IN`
-- `EXISTS` and `NOT EXISTS`
 - Correlated subqueries
-- `ANY` / `SOME`
-- `ALL`
-- Subqueries in the `FROM` clause
+- Derived tables using subqueries in the `FROM` clause
 
 ### Common Table Expressions (CTEs)
 - Creating CTEs using the `WITH` clause
