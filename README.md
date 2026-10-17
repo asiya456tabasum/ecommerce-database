@@ -40,27 +40,33 @@ order_items
  customers
 ```
 
+
 ## SQL Concepts Practiced
 
-This project currently demonstrates:
+This project demonstrates practical SQL concepts using PostgreSQL.
 
-* Database and table creation
-* Primary keys
-* Foreign keys
-* Relational database design
-* `INNER JOIN`
-* `LEFT JOIN`
-* `RIGHT JOIN`
-* `FULL OUTER JOIN`
-* `CROSS JOIN`
-* `SELF JOIN`
-* `COUNT()`
-* `SUM()`
-* `GROUP BY`
-* `IS NULL`
-* Multi-table joins
-* Aggregate calculations
-* - Subqueries
+### Database Fundamentals
+- Database and table creation
+- Primary keys and foreign keys
+- Relational database design
+
+### Joins
+- `INNER JOIN`
+- `LEFT JOIN`
+- `RIGHT JOIN`
+- `FULL OUTER JOIN`
+- `CROSS JOIN`
+- `SELF JOIN`
+- Multi-table joins
+
+### Aggregate Functions and Filtering
+- `COUNT()`
+- `SUM()`
+- `GROUP BY`
+- `IS NULL`
+- Aggregate calculations
+
+### Subqueries
 - Scalar subqueries
 - `IN` and `NOT IN`
 - `EXISTS` and `NOT EXISTS`
@@ -69,28 +75,40 @@ This project currently demonstrates:
 - `ALL`
 - Subqueries in the `FROM` clause
 
+### Common Table Expressions (CTEs)
+- Creating CTEs using the `WITH` clause
+- Calculating average product prices
+- Counting orders per customer
+- Filtering customers by order count
+- Finding the highest-priced product in each category
+- Identifying customers with the highest number of orders
+
+
+
 ## Repository Structure
 
-```text
 ecommerce-database/
-│
 ├── README.md
 ├── schema.sql
 ├── sample_data.sql
-│
 └── queries/
     ├── 01_inner_join.sql
     ├── 02_left_join.sql
     ├── 03_right_join.sql
     ├── 04_full_outer_join.sql
     ├── 05_cross_join.sql
-    └── 06_self_join.sql
+    ├── 06_self_join.sql
+    ├── subqueries.sql
+    └── ctes.sql
+```
+
 
 ## Technology
 
 * PostgreSQL
 * SQL
 * GitHub
+* pgAdmin
 
 
 ## Purpose
