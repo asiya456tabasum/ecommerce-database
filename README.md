@@ -82,6 +82,27 @@ This project demonstrates practical SQL concepts using PostgreSQL.
 
 
 
+## Window Functions
+
+Practised PostgreSQL window functions to perform calculations across related rows while retaining individual product records.
+
+Topics covered:
+
+- `AVG() OVER (PARTITION BY ...)` — calculate average prices within product categories.
+- `ROW_NUMBER()` — assign row numbers within categories.
+- `RANK()` and `DENSE_RANK()` — rank products by price within categories.
+- `LAG()` and `LEAD()` — compare product prices with preceding and following rows.
+- `SUM() OVER (...)` — calculate running totals.
+- `FIRST_VALUE()` and `LAST_VALUE()` — retrieve product values from specified positions in a window.
+- Window frames using `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`.
+- Full-partition window frames using `UNBOUNDED FOLLOWING`.
+
+SQL practice file: `queries/window_functions.sql`
+
+
+
+
+
 ## Repository Structure
 
 ecommerce-database/
@@ -96,8 +117,9 @@ ecommerce-database/
     ├── 05_cross_join.sql
     ├── 06_self_join.sql
     ├── subqueries.sql
-    └── ctes.sql
-```
+    ├── ctes.sql
+    └── window_functions.sql
+
 
 
 ## Technology
